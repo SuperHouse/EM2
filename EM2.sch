@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.7.0">
+<eagle version="9.0.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -18127,14 +18127,10 @@ designs clamp these pins, but it shouldn't be necessary.</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="101,1,337.82,25.4,RN8D,1,,,,"/>
-<approved hash="101,1,347.98,25.4,RN8D,2,,,,"/>
-<approved hash="101,1,337.82,20.32,RN6A,1,,,,"/>
-<approved hash="101,1,347.98,20.32,RN6A,2,,,,"/>
-<approved hash="101,1,337.82,10.16,RN7A,1,,,,"/>
-<approved hash="101,1,347.98,10.16,RN7A,2,,,,"/>
-<approved hash="101,1,337.82,15.24,RN7C,1,,,,"/>
-<approved hash="101,1,347.98,15.24,RN7C,2,,,,"/>
+<approved hash="101,1,302.26,7.62,RN8D,1,,,,"/>
+<approved hash="101,1,302.26,17.78,RN8D,2,,,,"/>
+<approved hash="101,1,304.8,48.26,RN6A,1,,,,"/>
+<approved hash="101,1,314.96,48.26,RN6A,2,,,,"/>
 <approved hash="104,1,172.72,167.64,IC2,VCC,5V,,,"/>
 <approved hash="104,1,434.34,144.78,IC3,AVCC,5V,,,"/>
 <approved hash="104,1,434.34,111.76,IC3,PAD,GND,,,"/>
@@ -18152,22 +18148,35 @@ designs clamp these pins, but it shouldn't be necessary.</text>
 <approved hash="104,1,302.26,317.5,IC9,VCC3,5V,,,"/>
 <approved hash="104,1,302.26,149.86,IC1,IN,VIN,,,"/>
 <approved hash="104,1,317.5,132.08,IC1,TGND,GND,,,"/>
-<approved hash="206,1,55.88,149.86,3V3D,,,,,"/>
-<approved hash="206,1,55.88,147.32,3V3D,,,,,"/>
-<approved hash="206,1,45.72,167.64,3V3D,,,,,"/>
-<approved hash="206,1,45.72,165.1,3V3D,,,,,"/>
+<approved hash="104,1,467.36,299.72,IC4,VCC,5V,,,"/>
+<approved hash="206,1,55.88,149.86,3.3V,,,,,"/>
+<approved hash="206,1,55.88,147.32,3.3V,,,,,"/>
+<approved hash="206,1,45.72,167.64,3.3V,,,,,"/>
+<approved hash="206,1,45.72,165.1,3.3V,,,,,"/>
+<approved hash="208,1,55.88,149.86,3.3V,out,,,,"/>
+<approved hash="208,1,55.88,147.32,3.3V,out,,,,"/>
+<approved hash="208,1,45.72,167.64,3.3V,out,,,,"/>
+<approved hash="208,1,45.72,165.1,3.3V,out,,,,"/>
+<approved hash="208,1,76.2,170.18,3.3V,sup,,,,"/>
+<approved hash="208,1,91.44,170.18,3.3V,sup,,,,"/>
+<approved hash="208,1,40.64,254,3.3V,sup,,,,"/>
+<approved hash="208,1,86.36,111.76,3.3V,sup,,,,"/>
 <approved hash="106,1,22.86,259.08,NC,,,,,"/>
-<approved hash="115,1,471.212,256.409,XIOH,,,,,"/>
-<approved hash="115,1,471.212,228.469,XIOL,,,,,"/>
-<approved hash="115,1,470.577,342.705,JP1,,,,,"/>
-<approved hash="115,1,470.577,330.005,JP2,,,,,"/>
-<approved hash="115,1,437.557,42.9853,JP4,,,,,"/>
-<approved hash="115,1,368.977,44.2553,JP5,,,,,"/>
-<approved hash="115,1,19.6427,251.655,JP6,,,,,"/>
-<approved hash="115,1,424.857,231.335,ADCL1,,,,,"/>
-<approved hash="115,1,424.857,254.195,PWML1,,,,,"/>
-<approved hash="115,1,420.886,277.055,COMMUNICATION1,,,,,"/>
-<approved hash="115,1,278.723,259.275,ADCH1,,,,,"/>
+<approved hash="106,1,177.8,96.52,PMODE0,,,,,"/>
+<approved hash="106,1,180.34,96.52,PMODE1,,,,,"/>
+<approved hash="106,1,182.88,96.52,PMODE2,,,,,"/>
+<approved hash="113,1,471.212,256.409,XIOH,,,,,"/>
+<approved hash="113,1,471.212,228.469,XIOL,,,,,"/>
+<approved hash="113,1,470.577,342.705,JP1,,,,,"/>
+<approved hash="113,1,470.577,330.005,JP2,,,,,"/>
+<approved hash="113,1,437.557,42.9853,JP4,,,,,"/>
+<approved hash="113,1,366.437,36.6353,JP5,,,,,"/>
+<approved hash="113,1,19.6427,251.655,JP6,,,,,"/>
+<approved hash="113,1,424.857,231.335,ADCL1,,,,,"/>
+<approved hash="113,1,424.857,254.195,PWML1,,,,,"/>
+<approved hash="113,1,420.886,277.055,COMMUNICATION1,,,,,"/>
+<approved hash="113,1,278.723,259.275,ADCH1,,,,,"/>
+<approved hash="113,1,355.405,80.6027,JP7,,,,,"/>
 </errors>
 </schematic>
 </drawing>
