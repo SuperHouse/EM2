@@ -18,7 +18,7 @@ Features:
 
 You can learn more at:
 
-  https://www.freetronics.com.au/em2
+  https://www.superhouse.tv/em2
 
 
 INSTALLATION
@@ -59,8 +59,8 @@ licences referenced above.
 
 CREDITS
 -------
-The EtherMega was designed by Marc Alexander (marc@freetronics.com) and
-Jonathan Oxer (jon@freetronics.com) based on previous work by the Arduino
+The EtherMega was designed by Jonathan Oxer (jon@freetronics.com) and
+Marc Alexander (marc@freetronics.com) based on previous work by the Arduino
 team (www.arduino.cc/playground/Main/People) which includes:
 
  * Massimo Banzi
